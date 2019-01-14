@@ -9,12 +9,12 @@ Android phone number verification using Google's Sms Retriever Api. This method 
 ## Setup
 Add this dependency  to app level Build Gradle
 ```groovy
-	dependencies {
+   dependencies {
       implementation 'com.google.android.gms:play-services-base:16.0.1'
       implementation 'com.google.android.gms:play-services-identity:16.0.0'
       implementation 'com.google.android.gms:play-services-auth:16.0.1'
       implementation 'com.google.android.gms:play-services-auth-api-phone:16.0.0'
-	}
+   }
 ```
 
 ## Getting user phone number
